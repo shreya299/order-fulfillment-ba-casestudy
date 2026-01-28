@@ -1,12 +1,17 @@
 # Order Fulfillment Process Improvement  
 ## Business Analyst Case Study (Simulated)
 
+## Project Snapshot
+
+**Role:** Business Analyst (case study simulation)  
+**Domain:** Retail Chain with Online Orders  
+**Problem:** Delayed order processing and inventory mismatches  
+**Outcome:** Defined KPIs to measure performance and provided actionable recommendations to reduce delays and improve operational visibility
 ---
 
 ## Overview
-This project is a **simulated Business Analyst case study** created to demonstrate how I approach analyzing operational business problems, defining KPIs, and supporting decision-making in a retail order fulfillment context.
-
-The scenario reflects common challenges faced by retail organizations with online ordering capabilities, including delayed order processing, inventory mismatches, and reactive issue handling.
+This is a simulated Business Analyst case study designed to demonstrate end-to-end problem framing, KPI definition, analysis, and actionable recommendation from a business perspective.
+The scenario focuses on operational inefficiencies in a retail organization with online ordering, specifically delayed order processing and inventory mismatches.
 
 > **Note:** This is a fictional case study created for portfolio and learning purposes. It does not represent a real organization or proprietary data.
 
@@ -57,6 +62,14 @@ The organization does not have centralized insight into where order fulfillment 
 6. Customer support responds reactively to impacted customers  
 7. Management reviews issues individually without trend analysis  
 
+## Process Flow (Simplified)
+
+**AS-IS:**  
+Customer Order → Inventory Check → Order Release → Fulfillment → Ticket Logged → Reactive Fix
+
+**TO-BE:**  
+Customer Order → Inventory Pre-Validation → Order Release → Fulfillment → KPI Dashboards → Weekly Trend Review
+
 **Key Challenges**
 - No KPI tracking for order fulfillment performance  
 - Late detection of inventory mismatches  
@@ -96,6 +109,8 @@ The organization does not have centralized insight into where order fulfillment 
 
 ## KPIs Defined
 
+These KPIs were defined to measure operational performance and support data-driven decision making.
+
 | KPI | Purpose | Business Decision Enabled |
 |---|---|---|
 | Order Processing Time | Measure fulfillment efficiency | Identify process bottlenecks |
@@ -122,10 +137,11 @@ The organization does not have centralized insight into where order fulfillment 
 ---
 
 ## Recommendations
-- Introduce KPI tracking for order fulfillment and inventory mismatches  
-- Use ticket trend analysis to proactively identify recurring issues  
-- Improve inventory validation before order confirmation  
-- Provide summary dashboards to support operational reviews  
+
+- Implement pre-order inventory validation controls to reduce mismatches  
+- Establish operational dashboards to monitor fulfillment KPIs in real-time  
+- Develop standardized ticket categorization to identify recurring issue drivers  
+- Conduct weekly trend reviews with Operations and Support leadership
 
 ---
 
@@ -139,11 +155,10 @@ The organization does not have centralized insight into where order fulfillment 
 ---
 
 ## Tools & Techniques
-- Business process analysis  
-- KPI definition and performance tracking  
-- Root cause and trend analysis  
-- Jira-style issue categorization  
-
+- Business process mapping (AS-IS / TO-BE)
+- KPI definition and measurement
+- Ticket analysis and trend identification
+- Stakeholder analysis and recommendation synthesis
 ---
 
 ## Key Skills Demonstrated
@@ -151,4 +166,11 @@ The organization does not have centralized insight into where order fulfillment 
 - Stakeholder-focused thinking  
 - Operational KPI design  
 - Data-driven decision support  
-- Clear documentation and communication  
+- Clear documentation and communication
+---
+## What I Learned
+
+This case strengthened my ability to:
+- Translate operational challenges into measurable business performance indicators
+- Structure ambiguous problems with stakeholders in mind
+- Turn data insights into actionable process recommendations

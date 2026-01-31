@@ -1,46 +1,43 @@
-# Order Fulfillment Process Improvement  
-## Business Analyst Case Study (Simulated)
+# 📦 Order Fulfillment Process Improvement  
+**Business Analyst Case Study (Simulated)**
 
 ---
 
 ## Project Snapshot
-
 **Role:** Business Analyst (case study simulation)  
-**Domain:** Retail Chain with Online Orders  
-**Problem:** Delayed order processing and inventory mismatches  
-**Outcome:** Defined operational KPIs and actionable recommendations to improve fulfillment performance
+**Domain:** Retail organization with online ordering  
+**Problem:** Delays in order processing and frequent inventory mismatches  
+**Outcome:** Identified process gaps, defined operational KPIs, and proposed practical improvements to support better fulfillment performance
 
 ---
 
 ## Overview
+This is a simulated Business Analyst case study that reflects how I approach operational problems, process analysis, and KPI-driven decision support.
 
-This is a simulated Business Analyst case study designed to demonstrate how I approach real-world operational analysis, KPI definition, and actionable recommendation synthesis.
+The scenario is based on a retail organization offering online ordering, where fulfillment delays and inventory mismatches are creating operational inefficiencies and impacting customer experience.
 
-The scenario focuses on operational inefficiencies within a retail organization that offers online ordering, where delayed order processing and inventory mismatches are impacting customer satisfaction and operational efficiency.
-
-> **Note:** This case study is a fictional scenario created for portfolio and learning purposes. It does not represent a real organization or proprietary data.
+**Note:** This case study is fictional and was created for portfolio and learning purposes. It does not involve a real organization or proprietary data.
 
 ---
 
 ## Business Context
+The organization operates both physical stores and an online ordering channel. Over time, teams began experiencing frequent fulfillment delays and situations where online orders could not be completed due to inventory mismatches.
 
-A retail chain with both in-store and online ordering capabilities is challenged by frequent delays in order fulfillment and mismatches between online orders and warehouse inventory. These issues have resulted in:
-- Delayed shipments
-- Order cancellations
-- Increased customer complaints
+These issues resulted in:
+- Delayed or missed shipments  
+- Order cancellations  
+- Increased customer complaints  
 
-Although operational issues are logged through a ticketing system, leadership lacks visibility into recurring patterns, drivers of delays, and performance trends that support proactive improvements.
+While issues were being logged through a ticketing system, leadership lacked visibility into recurring patterns and trends that could support proactive improvements rather than reactive fixes.
 
 ---
 
 ## Problem Statement
-
-The organization currently handles fulfillment issues reactively through a ticketing system, without tracking key performance indicators or trend analysis. This limits the ability to identify and resolve systemic issues, leading to inefficiencies and customer impact.
+Order fulfillment issues were primarily addressed after they occurred, through manual ticket resolution. There was no structured KPI tracking or trend analysis in place, which made it difficult to identify systemic issues, measure performance, or prioritize improvements effectively.
 
 ---
 
 ## Stakeholders
-
 **Primary Stakeholders**
 - Operations Manager  
 - Inventory Management Team  
@@ -48,126 +45,118 @@ The organization currently handles fulfillment issues reactively through a ticke
 
 **Secondary Stakeholders**
 - Warehouse Operations  
-- IT / Systems Support Team  
+- IT / Systems Support  
 
 ---
 
 ## My Role
-
-**Role:** Business Analyst
-
-**Responsibilities**
-- Analyze order fulfillment and issue-tracking data  
-- Define KPIs to measure operational performance  
-- Identify trends and root causes for fulfillment delays and inventory mismatches  
-- Translate findings into actionable business recommendations  
+In this case study, I acted as the Business Analyst and focused on:
+- Reviewing order fulfillment and issue-tracking data  
+- Defining KPIs to measure operational performance  
+- Identifying trends and root causes behind delays and inventory mismatches  
+- Translating findings into clear, actionable recommendations  
 
 ---
 
 ## Process Overview (AS-IS → TO-BE)
 
 ### Current State (AS-IS)
-
-- Customer places an online order  
-- Order is recorded in the order management system  
-- Inventory availability is validated manually or through delayed system sync  
-- Inventory mismatches or delays are detected after order placement  
-- Issues are logged in a Jira-style ticketing system  
-- Support teams resolve issues reactively  
-- Management reviews issues without trend analysis  
+1. A customer places an online order  
+2. The order is recorded in the order management system  
+3. Inventory availability is validated manually or through delayed system updates  
+4. Inventory mismatches or delays are identified after order placement  
+5. Issues are logged in a Jira-style ticketing system  
+6. Support teams resolve issues on a case-by-case basis  
+7. Management reviews issues without structured trend analysis  
 
 **Key Challenges**
-- No KPI tracking for fulfillment performance  
-- Late detection of inventory mismatches  
-- Meeting SLA targets is inconsistent  
-- Reactive rather than proactive resolution
+- No KPIs to track fulfillment performance  
+- Inventory issues identified too late in the process  
+- Inconsistent adherence to SLAs  
+- Reactive issue resolution instead of prevention  
+
+---
 
 ### Future State (TO-BE)
-
-- Customer order triggers pre-order inventory validation  
-- Only confirmed orders proceed to fulfillment  
-- Fulfillment tracking is aligned to defined KPIs  
-- Ticket categories are standardized for trend analysis  
-- Operations reviews recurring issue trends weekly
+Based on the gaps identified, an improved process was proposed where:
+- Orders trigger inventory validation before fulfillment begins  
+- Only confirmed orders move forward in the process  
+- Fulfillment performance is tracked using clearly defined KPIs  
+- Ticket categories are standardized to enable trend analysis  
+- Operations teams review recurring issues on a regular basis  
 
 **Improvements Introduced**
-- Early detection of inventory issues  
-- KPI-driven operational visibility  
-- Proactive issue identification and trend analysis
+- Earlier identification of inventory issues  
+- Better operational visibility through KPIs  
+- A shift from reactive issue handling to proactive problem identification  
 
 ---
 
 ## Data Sources
-
 - Order records (order date, fulfillment date, status)  
 - Inventory availability data  
-- Ticketing system data (issue category, resolution time, priority)
+- Ticketing system data (issue category, resolution time, priority)  
 
 ---
 
 ## KPIs Defined
-
-These KPIs were defined to measure fulfillment performance and support decision-making.
+To support performance monitoring and decision-making, the following KPIs were defined:
 
 | KPI | Purpose | Business Decision Enabled |
-|---|---|---|
-| Order Processing Time | Measures how long orders take from placement to shipment | Identify bottlenecks |
-| % Orders Delayed Beyond SLA | Tracks overall efficiency | Escalate high-risk periods |
+|----|--------|---------------------------|
+| Order Processing Time | Measures time from order placement to shipment | Identify bottlenecks |
+| % Orders Delayed Beyond SLA | Tracks overall fulfillment efficiency | Escalate high-risk periods |
 | Inventory Mismatch Rate | Monitors discrepancies between stock and orders | Improve inventory controls |
-| Ticket Volume by Category | Shows recurring operational issues | Prioritize corrective actions |
+| Ticket Volume by Category | Highlights recurring operational issues | Prioritize corrective actions |
 | Avg. Ticket Resolution Time | Measures operational workload | Improve resource allocation |
 
 ---
 
 ## Analysis Performed
-
-- Reviewed order and ticket data to uncover patterns in delays  
-- Categorized issues to identify recurring themes  
-- Measured KPI trends over time  
-- Highlighted high-impact issue categories during peak periods  
+- Reviewed order and ticket data to identify recurring delay patterns  
+- Categorized issues to surface common root causes  
+- Analyzed KPI trends over time  
+- Identified high-impact issue categories, especially during peak periods  
 
 ---
 
 ## Key Insights
-
-- Inventory mismatches were a major contributor to delayed orders  
-- Delay frequency increased during peak operational hours  
-- Specific ticket categories consistently exceeded SLA resolution times  
+- Inventory mismatches were a significant contributor to delayed orders  
+- Delays increased during peak operational hours  
+- Certain ticket categories consistently took longer to resolve and exceeded SLA targets  
 
 ---
 
 ## Recommendations
-
-- Implement pre-order inventory validation controls  
-- Establish operational dashboards to monitor KPIs in real time  
-- Standardize ticket categorization to identify recurring drivers  
-- Conduct weekly trend reviews with operations and support leadership
+- Introduce pre-order inventory validation to reduce downstream issues  
+- Use dashboards to monitor fulfillment KPIs on an ongoing basis  
+- Standardize ticket categorization to improve trend visibility  
+- Hold regular operational reviews focused on recurring issues and performance trends  
 
 ---
 
 ## Limitations & Next Steps
+**Limitations**
+- No access to real-time inventory data  
+- Customer segmentation data was not available  
 
-- Analysis was limited by the absence of real-time inventory data  
-- Customer segmentation data was unavailable  
-- Future enhancements could include:
-  - Real-time inventory data integration  
-  - Regional customer impact analysis
+**Future Enhancements**
+- Integrate real-time inventory feeds  
+- Analyze regional and customer-level impact  
 
 ---
 
 ## Tools & Techniques
-
 - Business process analysis  
 - KPI definition and measurement  
 - Root cause and trend analysis  
-- Jira-style issue categorization
+- Jira-style issue categorization  
 
 ---
 
 ## Key Skills Demonstrated
-
 - Business analysis and problem framing  
 - Stakeholder analysis  
 - Operational KPI design  
 - Data-driven decision support  
-- Clear documentation and communication
+- Clear documentation and communication  

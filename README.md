@@ -69,6 +69,10 @@ In this case study, I acted as the Business Analyst and focused on:
 6. Support teams resolve issues on a case-by-case basis  
 7. Management reviews issues without structured trend analysis  
 
+### AS-IS Process Flow
+![AS-IS Order Fulfillment Process](assets/as-is-process-flow.png)
+
+
 **Key Challenges**
 - No KPIs to track fulfillment performance  
 - Inventory issues identified too late in the process  
@@ -83,7 +87,10 @@ Based on the gaps identified, an improved process was proposed where:
 - Only confirmed orders move forward in the process  
 - Fulfillment performance is tracked using clearly defined KPIs  
 - Ticket categories are standardized to enable trend analysis  
-- Operations teams review recurring issues on a regular basis  
+- Operations teams review recurring issues on a regular basis
+
+### TO-BE Process Flow
+![TO-BE Order Fulfillment Process](assets/to-be-process-flow.png)
 
 **Improvements Introduced**
 - Earlier identification of inventory issues  
